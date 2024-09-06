@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 28: invalid syntax
+    default bravery = 0
+             ^
+
+Ren'Py Version: Ren'Py 8.3.0.24082114
+Fri Sep  6 23:33:49 2024
