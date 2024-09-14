@@ -10,3 +10,7 @@ game/cache/
 game/saves/
 
 game/tl/
+
+errors.txt
+log.txt
+traceback.txt
