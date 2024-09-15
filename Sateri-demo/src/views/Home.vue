@@ -26,7 +26,7 @@ export default defineComponent({
 
     const flipCoin = () => {
       const result = flipCoinUtil();
-			const side = result === 0 ? 'A' : 'B';
+      const side = result === 0 ? 'A' : 'B';
       router.push(`/disk/${side}`);
     };
 
@@ -45,7 +45,7 @@ export default defineComponent({
       navigateToHiddenPage,
       navigateToInstructionPage
     };
-	}
+  }
 });
 </script>
 
@@ -69,9 +69,11 @@ export default defineComponent({
   color: blue;
 }
 
-.video-player {
-  width: 80%;
-  max-width: 800px;
+.hidden-text {
+  color: white;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 4px;
   margin-top: 20px;
 }
 </style>
