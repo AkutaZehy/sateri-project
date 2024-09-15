@@ -11,7 +11,10 @@
   },
   "dependencies": {
     "@tauri-apps/plugin-shell": ">=2.0.0-rc.0",
+    "chinese-lunar": "^0.1.4",
+    "date-fns": "4.0.0-beta.1",
     "vue": "^3.3.4",
+    "vue-meta": "^2.4.0",
     "vue-router": "^4.0.13"
   },
   "devDependencies": {
